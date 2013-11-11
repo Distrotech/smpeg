@@ -1,6 +1,8 @@
 
 ## Makefile.am for the smpeg library
 
+ACLOCAL_AMFLAGS = -I acinclude
+
 bin_SCRIPTS = smpeg2-config
 
 CCLD = $(CXXLD)
